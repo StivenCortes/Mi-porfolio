@@ -1,4 +1,4 @@
-# Portafolio personal — Stiven Cortes
+# Portafolio personal — Cristian Stiven Cortes
 
 Portafolio web personal desarrollado para presentar mi perfil académico, mostrar mis proyectos de programación y documentar mi crecimiento en el área de la tecnología.
 
