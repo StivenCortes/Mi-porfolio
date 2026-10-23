@@ -1,54 +1,68 @@
-# Portafolio personal — GitHub Pages
+# Portafolio personal — Stiven Cortes
 
-Plantilla inicial gratuita, bilingüe (español/inglés), adaptable a móviles y con tema oscuro con rojo como acento y texto blanco.
+Portafolio web personal desarrollado para presentar mi perfil académico, mostrar mis proyectos de programación y documentar mi crecimiento en el área de la tecnología.
 
-## Archivos
+El proyecto está construido con tecnologías web fundamentales y utiliza una interfaz oscura con acentos rojos y texto blanco.
 
-- `index.html`: contenido y estructura.
-- `styles.css`: colores, diseño y adaptación a pantallas pequeñas.
-- `script.js`: botón para cambiar entre español e inglés.
+## Sobre el proyecto
 
-## 1. Personaliza antes de publicar
+Este portafolio funciona como un espacio para reunir mis trabajos, compartir los repositorios de mis proyectos y mostrar las tecnologías que voy aprendiendo durante mi formación en Ingeniería de Sistemas y Computación.
 
-Abre los archivos en un editor como Visual Studio Code y busca/reemplaza:
+El sitio se encuentra en desarrollo y se actualizará conforme incorpore nuevos proyectos, habilidades y mejoras.
 
-1. `Tu Nombre` por el nombre que quieras mostrar.
-2. `TU_USUARIO` por tu nombre de usuario de GitHub.
-3. `TU_CORREO@example.com` por un correo que quieras publicar (o elimina los enlaces de correo).
-4. Cambia los tres proyectos de ejemplo por proyectos reales. Actualiza el título, la descripción, las etiquetas y el enlace de cada botón.
-5. En habilidades, conserva solo las tecnologías que conoces o estás aprendiendo.
-6. Revisa el contenido en español e inglés de `script.js` para que ambas versiones estén actualizadas.
+## Tecnologías utilizadas
 
-**Privacidad:** el sitio será público. No publiques contraseñas, claves API, dirección de casa, documentos de identidad ni datos que no quieras compartir.
+- **HTML5:** estructura y organización del contenido.
+- **CSS3:** estilos, diseño adaptable y presentación visual.
+- **JavaScript:** interactividad y cambio de idioma entre español e inglés.
+- **Git:** control de versiones.
+- **GitHub:** alojamiento del código fuente y gestión del repositorio.
 
-## 2. Publica con GitHub Pages
+## Estructura del proyecto
 
-Método recomendado para una primera versión:
+```text
+Mi-porfolio/
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
+```
 
-1. Entra en GitHub y crea un repositorio nuevo llamado `TU_USUARIO.github.io`, sustituyendo `TU_USUARIO` por tu usuario real. Para esta plantilla, configúralo como **Public**.
-2. En el repositorio, pulsa **Add file → Upload files**.
-3. Sube `index.html`, `styles.css` y `script.js` (puedes subir también este README).
-4. Pulsa **Commit changes** para guardar los archivos en la rama principal (`main`).
-5. Abre **Settings → Pages**.
-6. En **Build and deployment**, selecciona **Deploy from a branch**.
-7. Selecciona la rama `main` y la carpeta `/(root)`, luego pulsa **Save**.
-8. Espera unos minutos y visita `https://TU_USUARIO.github.io`.
+- `index.html`: contiene la estructura y las secciones del portafolio.
+- `styles.css`: define los estilos visuales y la adaptación a distintos tamaños de pantalla.
+- `script.js`: gestiona las funciones interactivas del sitio, incluido el cambio de idioma.
+- `README.md`: documentación del proyecto.
 
-Si el sitio no aparece inmediatamente, revisa **Actions** o la sección **Settings → Pages** y espera un poco antes de volver a intentarlo.
+## Ejecutar localmente
 
-Documentación oficial: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+Para visualizar el sitio en tu computador:
 
-## 3. Cómo actualizarlo más adelante
+1. Clona este repositorio o descarga sus archivos.
+2. Abre la carpeta del proyecto en Visual Studio Code.
+3. Abre `index.html` directamente en el navegador o utiliza la extensión Live Server para visualizar los cambios durante el desarrollo.
 
-Cada vez que quieras mejorarlo, edita los archivos y súbelos al mismo repositorio. Después de confirmar los cambios, GitHub Pages publicará la nueva versión.
+No se requiere un proceso de compilación para ejecutar la versión estática del sitio.
 
-## 4. Buenas prácticas para presentar proyectos
+## Publicación
 
-Para cada proyecto explica:
-- Qué problema o necesidad aborda.
-- Qué hace y cómo se utiliza.
-- Qué tecnologías emplea.
-- Qué aprendiste y qué mejorarías.
-- Enlace al repositorio y, si existe, una demo funcional.
+El proyecto está preparado para publicarse mediante GitHub Pages, un servicio de alojamiento de sitios web estáticos. Cuando la publicación esté configurada, aquí se podrá añadir el enlace público del portafolio.
 
-No necesitas que tus primeros proyectos sean complejos: procura describirlos con honestidad y mostrar lo que has aprendido.
+## Proyectos destacados
+
+En el portafolio se presentan proyectos relacionados con la programación, entre ellos:
+
+- **Generador de códigos QR:** aplicación desarrollada en Python que genera códigos QR a partir de enlaces introducidos mediante la terminal.
+- **Calculadora del PAPA de la UNAL:** programa en Python orientado al cálculo del Promedio Aritmético Ponderado Acumulado.
+- **Portafolio personal:** sitio web desarrollado con HTML, CSS y JavaScript.
+
+También tengo experiencia inicial en un proyecto de huerta inteligente basado en C++ e Internet de las Cosas (IoT), que quiero seguir mejorando.
+
+## Autor
+
+**Stiven Cortes**
+
+Estudiante de Ingeniería de Sistemas y Computación, interesado en la programación, el desarrollo de software y el aprendizaje continuo.
+
+## Licencia
+
+Consulta el archivo `LICENSE` del repositorio para conocer las condiciones de uso y distribución del proyecto.
