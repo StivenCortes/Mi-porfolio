@@ -6,7 +6,7 @@ El proyecto está construido con tecnologías web fundamentales y utiliza una in
 
 ## Sobre el proyecto
 
-Este portafolio funciona como un espacio para reunir mis trabajos, compartir los repositorios de mis proyectos y mostrar las tecnologías que voy aprendiendo durante mi formación en Ingeniería de Sistemas y Computación.
+Este portafolio funciona como un espacio para reunir mis trabajos, compartir los repositorios de mis proyectos y mostrar las tecnologías que voy aprendiendo durante mi formación en Ingeniería de Sistemas y Computación en la Univerisidad Nacional de Colombia.
 
 El sitio se encuentra en desarrollo y se actualizará conforme incorpore nuevos proyectos, habilidades y mejoras.
 
@@ -61,7 +61,7 @@ También tengo experiencia inicial en un proyecto de huerta inteligente basado e
 
 **Cristian Stiven Cortes**
 
-Estudiante de Ingeniería de Sistemas y Computación, interesado en la programación, el desarrollo de software y el aprendizaje continuo.
+Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia, interesado en la programación, el desarrollo de software y el aprendizaje continuo.
 
 ## Derechos de autor y uso del código
 
