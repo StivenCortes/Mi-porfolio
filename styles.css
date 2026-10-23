@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
 
+/* Variables globales de color, tipografia y ancho del contenido. */
 :root {
   color-scheme: dark;
   --bg: #080808;
@@ -12,6 +13,8 @@
   --border: rgba(255, 255, 255, .16);
   --max-width: 1120px;
 }
+
+/* Ajustes base para el modelo de caja y el desplazamiento de la pagina. */
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 90px; }
 body {
@@ -20,6 +23,8 @@ body {
 }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; }
+
+/* Encabezado fijo, marca, navegacion y control de idioma. */
 .site-header {
   min-height: 76px; display: flex; align-items: center; justify-content: space-between;
   gap: 24px; padding: 0 max(24px, calc((100vw - var(--max-width)) / 2));
@@ -32,6 +37,8 @@ nav { display: flex; gap: clamp(14px, 3vw, 34px); }
 nav a, .social-links a, .text-link, .site-footer a { color: var(--muted); font-size: .85rem; transition: color .2s; }
 nav a:hover, .social-links a:hover, .text-link:hover, .site-footer a:hover { color: var(--cyan); }
 .language-toggle { border: 1px solid var(--border); color: var(--text); background: var(--panel); padding: 7px 12px; border-radius: 9px; cursor: pointer; }
+
+/* Ancho comun de las secciones y presentacion principal. */
 .section { max-width: var(--max-width); width: calc(100% - 48px); margin: 0 auto; }
 .hero { min-height: 600px; padding-top: 100px; padding-bottom: 100px; display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 50px; }
 .eyebrow { color: var(--cyan); font: 500 .72rem 'DM Mono', monospace; letter-spacing: 1.8px; text-transform: uppercase; }
@@ -46,6 +53,8 @@ h1 { font-size: clamp(3rem, 6vw, 5.4rem); letter-spacing: -.075em; line-height: 
 .primary { color: #ffffff; background: linear-gradient(100deg, #d9001b, #ff3348); }
 .secondary { border: 1px solid var(--border); background: rgba(255,255,255,.02); }
 .social-links { display: flex; gap: 24px; margin-top: 28px; }
+
+/* Ilustracion de la portada: orbitas, tarjeta de codigo e indicadores flotantes. */
 .hero-visual { min-height: 340px; display: grid; place-items: center; position: relative; }
 .orbit { position: absolute; border: 1px solid rgba(255,35,56,.14); border-radius: 50%; transform: rotate(-22deg); }
 .orbit-one { width: 350px; height: 260px; }
@@ -59,6 +68,8 @@ pre { margin: 0; padding: 25px 20px 30px; overflow: auto; font: .82rem/2 'DM Mon
 .code-purple { color: #ff5b69; }.code-blue { color: #ffffff; }.code-green { color: #ff9ba4; }.code-yellow { color: #f5f5f5; }
 .floating-chip { position: absolute; z-index: 2; border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; background: #151515; box-shadow: 0 10px 30px #0004; font: .75rem 'DM Mono', monospace; color: #c8d8ef; }
 .chip-top { top: 35px; right: 5px; }.chip-bottom { bottom: 28px; left: 0; }
+
+/* Estilos compartidos de secciones, titulos y contenido de perfil. */
 .content-section { padding-top: 75px; padding-bottom: 75px; border-top: 1px solid var(--border); }
 .section-heading { max-width: 740px; margin-bottom: 32px; }
 .section-heading .eyebrow, .contact-section .eyebrow { margin-bottom: 10px; }
@@ -70,10 +81,14 @@ h2 { font-size: clamp(1.9rem, 4vw, 3rem); letter-spacing: -.055em; line-height: 
 .info-panel > div { display: flex; align-items: center; gap: 13px; padding: 12px 0; }
 .info-panel > div + div { border-top: 1px solid var(--border); }
 .info-icon { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; color: var(--cyan); background: rgba(255,35,56,.1); }
+
+/* Listado de habilidades y sus etiquetas. */
 .section-intro { margin: 0; }
 .skill-list { display: flex; flex-wrap: wrap; gap: 12px; }
 .skill { display: inline-flex; align-items: center; gap: 10px; border: 1px solid var(--border); border-radius: 10px; background: rgba(25,25,25,.72); padding: 11px 15px; color: #dce8f8; }
 .skill b { color: var(--blue); font-size: 1.1rem; }.skill small { color: var(--muted); font-size: .68rem; }
+
+/* Cuadricula de proyectos, tarjetas, tecnologias y enlaces. */
 .project-heading { max-width: none; display: flex; align-items: end; justify-content: space-between; gap: 20px; }
 .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .project-card { min-height: 300px; display: flex; flex-direction: column; padding: 22px; border: 1px solid var(--border); border-radius: 14px; background: linear-gradient(145deg, rgba(25,25,25,.85), rgba(10,10,10,.7)); transition: transform .2s, border-color .2s; }
@@ -86,10 +101,14 @@ h2 { font-size: clamp(1.9rem, 4vw, 3rem); letter-spacing: -.055em; line-height: 
 .tag-row span { padding: 4px 8px; border-radius: 6px; background: rgba(255,35,56,.09); color: #ff9ba4; font: .68rem 'DM Mono', monospace; }
 .card-link { margin-top: 20px; color: var(--cyan); font-size: .82rem; font-weight: 700; }
 .note { font-size: .8rem; margin-top: 22px; }
+
+/* Seccion de contacto y pie de pagina. */
 .contact-section { padding-top: 80px; padding-bottom: 90px; text-align: center; border-top: 1px solid var(--border); }
 .contact-section h2 { max-width: 700px; margin: 12px auto 18px; }
 .contact-section > p:not(.eyebrow) { margin: 0 auto 26px; max-width: 600px; }
 .site-footer { max-width: var(--max-width); width: calc(100% - 48px); margin: 0 auto; border-top: 1px solid var(--border); min-height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 16px; color: #71819a; font-size: .75rem; }
+
+/* Adaptaciones del diseño para pantallas estrechas. */
 @media (max-width: 760px) {
   .site-header { padding: 14px 20px; min-height: auto; flex-wrap: wrap; gap: 12px; }
   nav { order: 3; width: 100%; justify-content: space-between; gap: 10px; }
@@ -97,13 +116,15 @@ h2 { font-size: clamp(1.9rem, 4vw, 3rem); letter-spacing: -.055em; line-height: 
   .hero { padding-top: 65px; padding-bottom: 65px; grid-template-columns: 1fr; gap: 20px; }
   .hero-visual { min-height: 300px; margin-top: 8px; }
   .orbit-one { width: 280px; height: 220px; }.orbit-two { width: 330px; height: 260px; }
-  .chip-top { right: 2%; }.chip-bottom { left: 1%; }
+  .chip-bottom { left: 1%; bottom: -2%; }
   .about-grid { grid-template-columns: 1fr; gap: 25px; }
   .project-grid { grid-template-columns: 1fr; }
   .project-heading { align-items: start; flex-direction: column; }
   .content-section { padding-top: 55px; padding-bottom: 55px; }
   .site-footer { padding: 20px 0; flex-wrap: wrap; }
 }
+
+/* Respeta la preferencia del usuario por reducir el movimiento. */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
