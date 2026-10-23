@@ -59,10 +59,18 @@ También tengo experiencia inicial en un proyecto de huerta inteligente basado e
 
 ## Autor
 
-**Stiven Cortes**
+**Cristian Stiven Cortes**
 
 Estudiante de Ingeniería de Sistemas y Computación, interesado en la programación, el desarrollo de software y el aprendizaje continuo.
 
-## Licencia
+## Derechos de autor y uso del código
 
-Consulta el archivo `LICENSE` del repositorio para conocer las condiciones de uso y distribución del proyecto.
+© 2026 Stiven Cortes. Todos los derechos reservados.
+
+El código fuente y el contenido original de este proyecto son propiedad de su autor, salvo los componentes de terceros que estén sujetos a sus propias licencias.
+
+Este repositorio se publica con fines de presentación académica y profesional. Su disponibilidad pública no concede una licencia general para copiar, modificar, redistribuir o utilizar el código en otros proyectos.
+
+Para solicitar autorización de uso, modificación o distribución, contacta con el autor.
+
+Las condiciones aplicables se interpretarán de conformidad con la legislación vigente y los derechos que correspondan a cada componente.
