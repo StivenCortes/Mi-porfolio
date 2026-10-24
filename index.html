@@ -27,7 +27,7 @@
         <h1><span data-i18n="heroHello">Hola, soy</span><br><span class="gradient-text">Cristian Stiven Cortes.</span></h1>
         <p class="hero-subtitle" data-i18n="heroSubtitle">Estoy aprendiendo a construir soluciones con código, un proyecto a la vez.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#proyectos" data-i18n="seeProjects">Ver mis proyectos <span aria-hidden="true">↗</span></a>
+          <a class="button primary" href="#proyectos" data-i18n="seeProjects">Ver mis proyectos</a>
           <a class="button secondary" href="#sobre-mi" data-i18n="aboutMe">Conóceme</a>
         </div>
         <div class="social-links">
@@ -38,7 +38,7 @@
       <div class="hero-visual" aria-hidden="true">
         <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
         <div class="code-card">
-          <div class="window-bar"><i></i><i></i><i></i><span>about_me.py</span></div>
+          <div class="window-bar"><i></i><i></i><i></i><span>sobre_mi.py</span></div>
           <pre><code><span class="code-purple">class</span> Developer:
   <span class="code-blue">name</span> = <span class="code-green">"Cristian Stiven Cortes Landazuri"</span>
   <span class="code-blue">focus</span> = <span class="code-green">"Learning"</span>
@@ -46,7 +46,7 @@
   <span class="code-purple">def</span> <span class="code-yellow">keep_building</span>(self):
     <span class="code-purple">return</span> <span class="code-green">"step by step"</span></code></pre>
         </div>
-        <div class="floating-chip chip-bottom">Always learning</div>
+        <div class="floating-chip chip-bottom" data-i18n="floatingChip">Siempre aprendiendo</div>
       </div>
     </section>
 
@@ -54,11 +54,17 @@
     <section class="section content-section" id="sobre-mi">
       <div class="section-heading">
         <p class="eyebrow" data-i18n="aboutLabel">UN POCO SOBRE MÍ</p>
-        <h2 data-i18n="aboutTitle">Aprendiendo hoy, <span class="gradient-text">construyendo para mañana.</span></h2>
+        <h2>
+          <span data-i18n="aboutTitleStart">Aprendiendo hoy,</span>
+          <span class="gradient-text" data-i18n="aboutTitleEnd">
+            construyendo mañana.
+          </span>
+        </h2>
       </div>
       <div class="about-grid">
-        <p class="body-copy" data-i18n="aboutText">Soy estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia
-        y estoy fortaleciendo mis bases en programación y desarrollo de software, para más adelante poder ser un ingeniero LM. Este espacio reúne mis proyectos, lo que voy aprendiendo y mi progreso como desarrollador.</p>
+        <p class="body-copy" data-i18n="aboutText">Soy estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia y estoy
+        fortaleciendo mis bases en programación y desarrollo de software, para más adelante poder ser un ingeniero LM. Este espacio reúne mis proyectos,
+        lo que voy aprendiendo y mi progreso como desarrollador.</p>
         <div class="info-panel">
           <div><span class="info-icon">⌘</span><span data-i18n="aboutPoint1">Aprendizaje constante</span></div>
           <div><span class="info-icon">◇</span><span data-i18n="aboutPoint2">Proyectos prácticos</span></div>
@@ -92,19 +98,21 @@
         </div>
         <a class="text-link" href="https://github.com/StivenCortes?tab=repositories" target="_blank" rel="noreferrer" data-i18n="allRepos">Todos mis repositorios ↗</a>
       </div>
+
 <!-- Aquí aparecen las tarjetas de proyectos -->
       <!-- 1er. Proyecto -->
       <div class="project-grid">
         
 <article class="project-card">
   <div class="project-top">
-    <span class="project-number">01 / PY</span>
+    <span class="project-number">01 / PY </span>
+    <span class="project-status status-progress"data-i18n="inProgress"> En desarrollo</span>
     <span class="project-symbol">⌘</span>
   </div>
 
-  <h3>Generador de códigos QR</h3>
+  <h3 data-i18n="qrTitle">Generador de códigos QR</h3>
 
-  <p>
+  <p data-i18n="qrDescription">
     Aplicación desarrollada en Python que genera códigos
     QR a partir de enlaces ingresados por la terminal.
     Proyecto en evolución con el objetivo de facilitar
@@ -118,10 +126,10 @@
   </div>
 
   <a href="https://github.com/StivenCortes/Generador-de-QRs"
-     target="_blank"
-     rel="noreferrer"
-     class="card-link">
-    <span>Ver código</span> ↗
+    target="_blank"
+    rel="noreferrer"
+    class="card-link">
+    <span data-i18n="viewCode">Ver código</span> ↗
   </a>
 </article>
 
@@ -129,13 +137,14 @@
         
 <article class="project-card">
   <div class="project-top">
-    <span class="project-number">02 / WEB</span>
+    <span class="project-number">02 / WEB </span>
+    <span class="project-status status-progress"data-i18n="inProgress">En desarrollo</span>
     <span class="project-symbol">⌘</span>
   </div>
 
-  <h3>Portafolio personal</h3>
+  <h3 data-i18n="portfolioTitle">Portafolio personal</h3>
 
-  <p>
+  <p data-i18n="portfolioDescription">
     Sitio web personal desarrollado con HTML, CSS y
     JavaScript para presentar mi perfil académico,
     documentar mi aprendizaje y compartir mis proyectos
@@ -149,10 +158,10 @@
   </div>
 
   <a href="https://github.com/StivenCortes/Mi-porfolio"
-     target="_blank"
-     rel="noreferrer"
-     class="card-link">
-    <span>Ver código</span> ↗
+    target="_blank"
+    rel="noreferrer"
+    class="card-link">
+    <span data-i18n="viewCode">Ver código</span> ↗
   </a>
 </article>
 
@@ -161,12 +170,13 @@
 <article class="project-card">
   <div class="project-top">
     <span class="project-number">03 / PY</span>
+    <span class="project-status status-progress"data-i18n="inProgress"> En desarrollo</span>
     <span class="project-symbol">⌘</span>
   </div>
 
-  <h3>Calculadora del PAPA — UNAL</h3>
+  <h3 data-i18n="papaTitle">Calculadora del PAPA — UNAL</h3>
 
-  <p>
+  <p data-i18n="papaDescription">
     Programa de terminal desarrollado en Python para
     calcular el Promedio Aritmético Ponderado Acumulado
     (PAPA), recreando la fórmula de cálculo utilizada
@@ -180,10 +190,10 @@
   </div>
 
   <a href="https://github.com/StivenCortes/Calculadora_PAPA_de_la_UNAL"
-     target="_blank"
-     rel="noreferrer"
-     class="card-link">
-    <span>Ver código</span> ↗
+    target="_blank"
+    rel="noreferrer"
+    class="card-link">
+    <span data-i18n="viewCode">Ver código</span> ↗
   </a>
 </article>
   </div>
@@ -197,9 +207,10 @@
       <h2 data-i18n="contactTitle">Cada proyecto es <span class="gradient-text">un nuevo comienzo.</span></h2>
       <p data-i18n="contactText">Estoy construyendo mis habilidades y abierto a aprender, colaborar y compartir ideas.</p>
       <a class="button primary" href="mailto:TU_CORREO@example.com"><span data-i18n="writeMe">Escríbeme</span> ↗</a>
-    </section>
+    </section> -->
   </main>
--->
+
+<!-- Pie de página -->
   <footer class="site-footer">
     <span>© <span id="year"></span> Stiven Cortes</span>
     <span data-i18n="footerText">Hecho con curiosidad y código.</span>

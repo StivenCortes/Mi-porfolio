@@ -81,6 +81,8 @@ h2 { font-size: clamp(1.9rem, 4vw, 3rem); letter-spacing: -.055em; line-height: 
 .info-panel > div { display: flex; align-items: center; gap: 13px; padding: 12px 0; }
 .info-panel > div + div { border-top: 1px solid var(--border); }
 .info-icon { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; color: var(--cyan); background: rgba(255,35,56,.1); }
+.project-status { display: inline-block; width: fit-content; margin: 8px 0 10px; padding: 0px; border: none ; border-radius: 0px; color: #65a9ff; background: transparent; font-size: 0.75rem; font-weight: 600; font-family: inherit;}
+.status-progress { color: #65a9ff; background: transparent; border-color: none; }
 
 /* Listado de habilidades y sus etiquetas. */
 .section-intro { margin: 0; }
